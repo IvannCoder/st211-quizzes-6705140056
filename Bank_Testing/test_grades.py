@@ -1,5 +1,5 @@
 import pytest
-from grades import letter_grade
+from grade import letter_grade
 
 def test_boundary_a_grade():
     assert letter_grade(80) == "A"
